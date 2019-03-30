@@ -18,3 +18,7 @@ Route::get('/', function () {
 route:: get('/contato', function(){
     return "<h2>Dhavidkelvy@gmail.com</h2>";
 });
+
+route:: get('/sobre', function(){
+    return "<h2>Projeto de web II</h2>";
+});
