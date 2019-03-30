@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+route:: get('/contato', function(){
+    return "<h2>Dhavidkelvy@gmail.com</h2>";
+});
